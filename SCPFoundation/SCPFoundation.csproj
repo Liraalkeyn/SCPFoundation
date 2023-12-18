@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Npgsql" Version="8.0.1" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\Authentication\Authentication.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\ArrowLeft.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\ArrowRight.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\FirstBlockBack.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\GalleryPhotoOne.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\GalleryPhotoTwo.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\IntroductionPhoto.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\Logo.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\SiteLogo.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\StageOne.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\StageThree.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageOne\StageTwo.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageSCP\035.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Site19\PageTwo\General information.svg" />
+    </ItemGroup>
+
+</Project>
